@@ -1,0 +1,6 @@
+tool: GCC
+fileName: 'WHEELTEC.map'
+elfName: 'WHEELTEC.elf'
+compilerName: '15:9-2019-q4-0ubuntu1'
+compilerFullName: 'arm-none-eabi-gcc (15:9-2019-q4-0ubuntu1) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]'
+compilerPath: '/usr/bin/arm-none-eabi-gcc'

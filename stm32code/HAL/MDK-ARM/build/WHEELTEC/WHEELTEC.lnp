@@ -1,0 +1,34 @@
+-mcpu=cortex-m3 -mthumb -T /home/feifei/linux/git/git-team-learning/Inverted-Pendulum-Project/stm32code/HAL/MDK-ARM/STM32F103C8.ld -Wl,--print-memory-usage
+-Wl,-Map=./build/WHEELTEC/WHEELTEC.map
+-o ./build/WHEELTEC/WHEELTEC.elf ./build/WHEELTEC/.obj/__/BALANCE/CHECK/check.o
+./build/WHEELTEC/.obj/__/BALANCE/CONTROL/control.o
+./build/WHEELTEC/.obj/__/BALANCE/DataScope_DP/DataScope_DP.o
+./build/WHEELTEC/.obj/__/BALANCE/show/show.o
+./build/WHEELTEC/.obj/__/Core/Src/adc.o
+./build/WHEELTEC/.obj/__/Core/Src/gpio.o
+./build/WHEELTEC/.obj/__/Core/Src/main.o
+./build/WHEELTEC/.obj/__/Core/Src/stm32f1xx_hal_msp.o
+./build/WHEELTEC/.obj/__/Core/Src/stm32f1xx_it.o
+./build/WHEELTEC/.obj/__/Core/Src/system_stm32f1xx.o
+./build/WHEELTEC/.obj/__/Core/Src/tim.o
+./build/WHEELTEC/.obj/__/Core/Src/usart.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+./build/WHEELTEC/.obj/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+./build/WHEELTEC/.obj/__/HARDWARE/KEY/key.o
+./build/WHEELTEC/.obj/__/HARDWARE/LED/LED.o
+./build/WHEELTEC/.obj/__/HARDWARE/OLED/oled.o
+./build/WHEELTEC/.obj/startup_stm32f103xb.o
